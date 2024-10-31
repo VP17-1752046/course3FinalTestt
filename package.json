@@ -1,0 +1,13 @@
+{
+  "name": "course3FinalTestt",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start --prefix frontend\" \"npm start --prefix backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.27.0"
+  }
+}
